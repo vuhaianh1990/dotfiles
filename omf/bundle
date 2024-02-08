@@ -1,7 +1,6 @@
 package bass
 package foreign-env
+package gem
 package nvm
-package pyenv
-package python
 theme bobthefish
 theme default
