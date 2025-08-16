@@ -19,3 +19,17 @@ ubuntu-xdg-terminals.list
 user-dirs.dirs
 user-dirs.locale
 xdg-terminals.list
+freerdp/server
+gnome-boxes/sources
+libvirt/storage
+menus/applications-merged
+nwg-panel
+org.gnome.Ptyxis
+superfile
+totem
+uv
+connections.db
+mimeapps.list
+monitors.xml
+autostart
+forge
