@@ -1,14 +1,14 @@
 # Setting the format of the prompt
-# format = """
-# $username\
-# $directory\
-# $all\
-# $character"""
-
 format = """
-$character \
-$all
-"""
+$username\
+$directory\
+$all\
+$character"""
+
+# format = """
+# $character \
+# $all
+# """
 
 right_format = """$cmd_duration"""
 
@@ -157,8 +157,11 @@ symbol = " "
 
 [directory]
 read_only = " "
-truncation_length = 1
-home_symbol = "~"
+# home_symbol = "~"
+truncation_length = 255
+# truncation_symbol = '…/'
+truncate_to_repo = false
+use_logical_path = false
 #style = "bold orange"
 
 [docker_context]
